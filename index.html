@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Películas Favoritas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Mis Películas Favoritas</h1>
+
+        <div class="sections-wrapper">
+            <section class="movie-section">
+                <h2>Películas Disponibles</h2>
+                <div id="availableMoviesContainer" class="movies-grid">
+                    <p id="loadingAvailableMovies" class="loading-message">Cargando películas...</p>
+                    <p id="errorAvailableMovies" class="error-message hidden"></p>
+                </div>
+            </section>
+
+            <section class="movie-section favorites-section">
+                <h2>Mis Favoritas</h2>
+                <div id="favoriteMoviesContainer" class="movies-grid">
+                    <p id="noFavoritesMessage" class="info-message">Aún no tienes películas favoritas. ¡Agrégalas!</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
